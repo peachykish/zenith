@@ -1,9 +1,33 @@
+@font-face {
+    font-family: futura;
+    src: url("./assets/images/fonts/futura-heavy.ttf");
+}
+
 /* Mobile First--------------------------------- */
+
 /*  base */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: "futura";
+}
 
+img {
+    width: 100%;
+}
 
+li {
+    list-style: none;
+}
 
+a {
+    text-decoration: none;
+    color: black;
+}
 /* layout */
 
 
@@ -12,6 +36,38 @@
 
 /* blocks */
 
+/* background */
+
+.background-img_wrapper {
+    width: 60%;
+}
+
+.background-img {
+    position: absolute;
+    z-index: -1;
+    top: 100px;
+}
+
+/* header */
+
+.header__logo__wrapper {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.header_nav {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    left: 12%;
+}
+
+/* hero */
+
+.hero-section__card__wrapper {
+    width: 75%;
+}
+.hero-section_h2
 
 
 
